@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Hackathon App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective
 
-## Available Scripts
+Create a hackathon app for organizers to create hackathons and participants to view, search, filter, and sort hackathons.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Home Page**:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - Search bar to dynamically update hackathon list.
+  - Filter dropdown for level (easy, medium, hard) and status (active, upcoming, past).
+  - Sorting button for newest first and oldest first.
+  - List of hackathon cards with hover effect and onClick action.
+  - Two-section layout: main header and hackathon list.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Create Hackathon Page**:
 
-### `npm test`
+  - Form fields: Name, Start Date, End Date, Description, Image (uploader), Level.
+  - Unique ID generation for each hackathon.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Hackathon Card**:
 
-### `npm run build`
+  - Image, status, name, timer (end/start dates), and "Participate Now" button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Hackathon Detail Page**:
+  - Display all hackathon details with edit and delete buttons.
+  - Data persistence on page reload.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **ReactJS**: Frontend framework.
+- **Redux Toolkit**: State management.
+- **TailwindCSS**: Styling.
+- **LocalStorage**: Data storage.
 
-### `npm run eject`
+## Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```sh
+   git clone https://github.com/Crazyhaller/ai-planet-assignment.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```sh
+   cd ai-planet-assignment
+   ```
 
-## Learn More
+3. Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```sh
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the development server:
 
-### Code Splitting
+   ```sh
+   npm run dev
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Notes
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- No backend; use `data.json` and LocalStorage for data.

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "hackathon-1",
+    "name": "AI Innovation Challenge",
+    "startDate": "2024-09-10",
+    "endDate": "2024-09-20",
+    "description": "A beginner-friendly coding marathon to solve simple problems and learn.",
+    "image": "https://res.cloudinary.com/devex/image/fetch/c_scale,f_auto,q_auto,w_720/https://lh4.googleusercontent.com/VQyrPPyh-FGdV2BJtlcwDphesnxERD6SLWvGtARygLDVNSsXhFF0kzG_yXvLyiARZbKIG3VYF_CIbF4_B-Wy3Eu7kKhHKKR3pq_2ob2pdZgxt_Wz_uqXjRMrhIBKREQnJo--Ui9b",
+    "level": "hard",
+    "status": "upcoming"
+  },
+  {
+    "id": "hackathon-2",
+    "name": "Web Development Sprint",
+    "startDate": "2024-08-01",
+    "endDate": "2024-08-10",
+    "description": "A hackathon for web developers to build and showcase their skills.",
+    "image": "https://vectara.com/wp-content/uploads/2023/12/RAG-hackathon-2.jpg",
+    "level": "medium",
+    "status": "past"
+  },
+  {
+    "id": "hackathon-3",
+    "name": "Beginner's Coding Marathon",
+    "startDate": "2024-09-05",
+    "endDate": "2024-09-12",
+    "description": "A beginner-friendly coding marathon to solve simple problems and learn.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW-y5LnxKkpjJs0MRTywQrEwvhiJDIGmyNMg&s",
+    "level": "easy",
+    "status": "active"
+  },
+  {
+    "id": "hackathon-4",
+    "name": "Data Science Hackathon",
+    "startDate": "2024-10-01",
+    "endDate": "2024-10-10",
+    "description": "A hackathon for data scientists to solve complex data problems.",
+    "image": "https://www.brightidea.com/wp-content/uploads/Who_Participates_in_a_Hackathon.png",
+    "level": "hard",
+    "status": "upcoming"
+  },
+  {
+    "id": "hackathon-5",
+    "name": "Mobile App Development Challenge",
+    "startDate": "2024-07-15",
+    "endDate": "2024-07-25",
+    "description": "A hackathon for mobile app developers to create innovative apps.",
+    "image": "https://i0.wp.com/www.ictworks.org/wp-content/uploads/2023/11/hackathon-app-contest-impacts.png?fit=640%2C366&ssl=1",
+    "level": "medium",
+    "status": "past"
+  },
+  {
+    "id": "hackathon-6",
+    "name": "Cybersecurity Challenge",
+    "startDate": "2024-11-01",
+    "endDate": "2024-11-10",
+    "description": "A hackathon focusing on cybersecurity and ethical hacking.",
+    "image": "https://news.microsoft.com/wp-content/uploads/prod/sites/45/2019/07/Teamshacking@Microsoft2019hackathon_-960x630.jpg",
+    "level": "hard",
+    "status": "upcoming"
+  },
+  {
+    "id": "hackathon-7",
+    "name": "Game Development Jam",
+    "startDate": "2024-06-20",
+    "endDate": "2024-06-30",
+    "description": "A hackathon for game developers to create and showcase their games.",
+    "image": "https://assets.website-files.com/5b3dd54182ecae4d1602962f/609e33e18c5000af6211f094_HR%20Hackathon%20-%20Section%202.jpg",
+    "level": "medium",
+    "status": "past"
+  },
+  {
+    "id": "hackathon-8",
+    "name": "Blockchain Hackathon",
+    "startDate": "2024-12-01",
+    "endDate": "2024-12-10",
+    "description": "A hackathon for blockchain enthusiasts to develop decentralized applications.",
+    "image": "https://media.hackerearth.com/blog/wp-content/uploads/2019/09/Capture_HAckathon_wordpress.jpg",
+    "level": "hard",
+    "status": "upcoming"
+  },
+  {
+    "id": "hackathon-9",
+    "name": "IoT Innovation Challenge",
+    "startDate": "2024-05-10",
+    "endDate": "2024-05-20",
+    "description": "A hackathon for IoT developers to create innovative IoT solutions.",
+    "image": "https://cdn1.expresscomputer.in/wp-content/uploads/2019/07/25100405/Microsoft-Hackathon.jpg",
+    "level": "medium",
+    "status": "past"
+  }
+]
